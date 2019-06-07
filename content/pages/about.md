@@ -2,7 +2,7 @@
 template: page
 title: About One Piece
 slug: /page/about
-draft: true
+draft: false
 ---
 ![one piece](/media/73245l.jpg "one piece")
 
