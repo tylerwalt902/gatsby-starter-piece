@@ -14,7 +14,7 @@ const Feed = ({ edges }: Props) => (
     {edges.map((edge) => (
       <div className={styles['feed__item']} key={edge.node.fields.slug}>
         <h2 className={styles['feed__item-title']}>
-          [Sub] One Piece <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
+          <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>[Sub] One Piece {edge.node.frontmatter.title}</Link>
         </h2>
       </div>
     ))}
